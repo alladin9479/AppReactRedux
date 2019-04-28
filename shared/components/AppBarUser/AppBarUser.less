@@ -1,0 +1,47 @@
+@import "../../assets/palette.less";
+@import "../../assets/buttons.less";
+@import "../../assets/media.less";
+
+.AppBarUser__login {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  color: @white-darker;
+}
+
+.AppBarUser__login-mobile {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  color: @white-darker;
+  display: none;
+  @media @phone, @tablet {
+    display: block;
+  }
+}
+
+.AppBarUser__logout {
+  padding: 5px;
+  color: @white-darker;
+}
+
+.AppBarAppBarUser__menu-info {
+  display: inline-block;
+  height: 40px;
+  margin: 0px;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.AppBarUser__menu-item {
+  padding: 0px 10px;
+  display: inline-block;
+  width: 40px;
+  cursor: pointer;
+}
+
+.AppBarUser__avatar {
+  width: 40px;
+  height: 40px;
+}
+
